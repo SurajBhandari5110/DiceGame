@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+   
+    font-size: 5em;
+    column-gap: 2px;
+    color: hsla(93, 100%, 50%, 0.822);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    
+    background-image: url("bak.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: rgba(4, 196, 4, 0.938);
+    font-family:initial;
+   
+}
+
+p{
+    font-size: 3rem;
+    margin: auto 4rem;
+   
+}
+footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: rgb(19, 105, 233);
+}
+.dice{
+margin: 2em;
+}
+img{
+    height: 40vh;
+  
+}
+
+h2{
+    font-size: 3rem;
+}
+
+    

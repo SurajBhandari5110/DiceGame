@@ -7,16 +7,17 @@
     justify-content: center;
     align-items: center;
 }
-h2{
-    color:white;
-    display: flex;
+h2{ display: flex;
     align-items: center;
     justify-content: center;
-    
+    color: white;
+  
+
+
 }
 h1{
    
-    font-size: 5em;
+    font-size: 5rem;
     column-gap: 2px;
     color: hsla(93, 100%, 50%, 0.822);
     display: flex;
@@ -30,12 +31,16 @@ body{
     background-size: cover;
     color: rgba(4, 196, 4, 0.938);
     font-family:initial;
+    height: 120vh;
+    max-width:100%;
+   
    
 }
 
 p{
     font-size: 3rem;
-    margin: auto 4rem;
+    margin: 1rem 0rem 1rem 15rem ;
+    padding-left:rem ;
    
 }
 footer{
@@ -47,15 +52,30 @@ footer{
     color: rgb(19, 105, 233);
 }
 .dice{
-margin: 2em;
+margin: 2px;
 }
 img{
-    height: 40vh;
+    height: 20vh;
+    width: 20vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15rem;
   
 }
 
 h2{
     font-size: 3rem;
 }
-
+span{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+b{
+    color: yellow;
+}
     
+
